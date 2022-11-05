@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MAP</title>
+
+	<!--leaflet css-->
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+     integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+     crossorigin=""/>
+
+     <link rel="stylesheet" type="text/css" href="css/map.css">
+
+</head>
+<body>
+
+	<div id="map">
+
+	<div id="coordinate"></div>
+	</div>
+
+
+
+
+
+ <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+     integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+     crossorigin=""></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+ <!--adding leaflet browserprint-->
+  <script type="text/javascript" src="js/leaflet.browser.print.js"></script>
+  <script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+
+     <script type="text/javascript" src="data/16_Regions.js"></script>
+<script type="text/javascript" src="data/RailwayLines.js"></script>
+<script type="text/javascript" src="data/healthfacilities.js"></script>
+
+
+
+     <script type="text/javascript" src="js/map.js"></script>
+
+  
+</body>
+</html>
